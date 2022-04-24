@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lobster", cursive;
+  background-image: url("pared.jpg");
+  background-size: 100%;
+}
+
+
+#div {
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
+  top: 20%;
+  left: 40%;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+#image {
+  border: 1px solid black;
+  height: 80%;
+  width: 80%;
+  object-fit: contain;
+  top: 10%;
+  left: 10%;
+  position: absolute;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
